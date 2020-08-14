@@ -53,14 +53,14 @@
 
 body {
   margin: 0;
-  font-family: Arial;
+  font-family: Calibri;
 }
 
 /* The grid: Four equal columns that floats next to each other */
 .column {
   float: left;
-  width: 25%;
-  padding: 10px;
+  width: 20%;
+  padding: 5px;
 }
 
 /* Style the images inside the grid */
@@ -129,24 +129,24 @@ body {
 <!-- The four columns -->
 <div class="row">
   <div class="column">
-    <img src="img_nature.jpg  /" alt="Uniform" style="width:100%" onclick="myFunction(this);">
+    <img src="img_nature.jpg /" alt="Uniform" style="width:100%" onclick="myFunction(this);">
   </div>
   <div class="column">
-    <img src="./4th of July Parade  /" alt="4th of July Parade" style="width:100%" onclick="myFunction(this);">
+    <img src="./4th of July Parade /" alt="4th of July Parade" style="width:100%" onclick="myFunction(this);">
   </div>
   <div class="column">
-    <img src="./IMG_0110.jpg  /" alt="Red Uniform" style="width:100%" onclick="myFunction(this);">
+    <img src="./IMG_0110.jpg /" alt="Red Uniform" style="width:100%" onclick="myFunction(this);">
   </div>
   <div class="column">
-    <img src="./IMG_20170519_212625528.jpg  /" alt="Fair" style="width:100%" onclick="myFunction(this);">
+    <img src="./IMG_20170519_212625528.jpg /" alt="Fair" style="width:100%" onclick="myFunction(this);">
   </div>
 </div>
 
 <div class="container">
   <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
   <img id="expandedImg" style="height:300px">
-  <div id="imgtext"></div>
-</div>
+  <div id="imgtext">
+	</div>
 
 <script>
 function myFunction(imgs) {
